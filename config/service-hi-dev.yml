@@ -1,13 +1,8 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://miao:miao@localhost:8761/eureka/
-  instance:
-    instance-id: ${spring.application.name}:${eureka.instance.instance-id:${server.port}}
-    prefer-ip-address: true  #在服务信息查看的时候应该以IP地址作为连接项。   
+  
 server:
-  port: 8764
+  #port: 8764
   test: 234234543
-spring:
-  application:
-    name: service-hi
+  foo: foo version 2
+  name: wumiaosheng
+  age: 99
+
